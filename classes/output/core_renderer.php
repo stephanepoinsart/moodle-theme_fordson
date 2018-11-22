@@ -1598,6 +1598,20 @@ class core_renderer extends \theme_boost\output\core_renderer {
         return false;
     }
 
+    public function backtocourse() {
+        global $PAGE, $COURSE;
+        $COURSE = course_get_format($COURSE)->get_course();
+        $linktitle="Quitter l'activité / Retour au cours";
+        if ($PAGE->course && $PAGE->cm && $PAGE->course->id) {
+            if (!$PAGE->cm->sectionnum) {
+                return(html_writer::link(new moodle_url('/course/view.php', array('id' => $PAGE->course->id)) , $linktitle, array('class' => 'section-go-link btn btn-secondary')));
+            } else {
+                if ($COURSE->coursedisplay == COURSE_DISPLAY_MULTIPAGE) {
+                    return(html_writer::link(new moodle_url('/course/view.php', array('id' => $PAGE->course->id, 'section' => $PAGE->cm->sectionnum)) , $linktitle, array('class' => 'section-go-link btn btn-secondary')));
+                } else {
+                    return(html_writer::link(new moodle_url('/course/view.php', array('id' => $PAGE->course->id), 'section-'.$PAGE->cm->sectionnum) , $linktitle, array('class' => 'section-go-link btn btn-secondary')));
+                }
+            }
+        }
+    }
 }
-
-

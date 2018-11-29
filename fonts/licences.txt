@@ -1,0 +1,2 @@
+La police utc_mtu_courbes_sc_black_italic.woff et utc_mtu_courbes_black_italic.woff sont sous licence SIL OFL. Elle provient de https://www.fontsquirrel.com/fonts/playfair-display et a été renommée pour respecter la licence SIL-OFL.
+La police roboto est sous licence Apache v2.00    http://www.apache.org/licenses/ https://www.fontsquirrel.com/fonts/roboto

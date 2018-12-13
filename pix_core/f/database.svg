@@ -7,12 +7,12 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   height="1792"
+   height="1911.4667"
    viewBox="0 0 1792 1792"
-   width="1792"
+   width="1911.4667"
    id="svg2"
    version="1.1"
-   inkscape:version="0.91 r13725"
+   inkscape:version="0.92.1 r15371"
    sodipodi:docname="database.svg">
   <metadata
      id="metadata10">
@@ -36,19 +36,20 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="957"
+     inkscape:window-width="982"
      inkscape:window-height="785"
      id="namedview6"
      showgrid="false"
      inkscape:zoom="0.13169643"
      inkscape:cx="-242.98304"
-     inkscape:cy="896.00001"
+     inkscape:cy="896.00002"
      inkscape:window-x="10"
      inkscape:window-y="34"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg2" />
   <path
-     d="M896 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0 768q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-384q237 0 443-43t325-127v170q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-170q119 84 325 127t443 43zm0-1152q208 0 385 34.5t280 93.5 103 128v128q0 69-103 128t-280 93.5-385 34.5-385-34.5-280-93.5-103-128v-128q0-69 103-128t280-93.5 385-34.5z"
+     d="m 896,768 q 237,0 443,-43 206,-43 325,-127 v 170 q 0,69 -103,128 -103,59 -280,93.5 Q 1104,1024 896,1024 688,1024 511,989.5 334,955 231,896 128,837 128,768 V 598 q 119,84 325,127 206,43 443,43 z m 0,768 q 237,0 443,-43 206,-43 325,-127 v 170 q 0,69 -103,128 -103,59 -280,93.5 -177,34.5 -385,34.5 -208,0 -385,-34.5 Q 334,1723 231,1664 128,1605 128,1536 v -170 q 119,84 325,127 206,43 443,43 z m 0,-384 q 237,0 443,-43 206,-43 325,-127 v 170 q 0,69 -103,128 -103,59 -280,93.5 -177,34.5 -385,34.5 -208,0 -385,-34.5 Q 334,1339 231,1280 128,1221 128,1152 V 982 q 119,84 325,127 206,43 443,43 z M 896,0 q 208,0 385,34.5 177,34.5 280,93.5 103,59 103,128 v 128 q 0,69 -103,128 -103,59 -280,93.5 Q 1104,640 896,640 688,640 511,605.5 334,571 231,512 128,453 128,384 V 256 Q 128,187 231,128 334,69 511,34.5 688,0 896,0 Z"
      id="path4"
-     style="fill:#615ba3;fill-opacity:1" />
+     style="fill:#31b7d6;fill-opacity:1"
+     inkscape:connector-curvature="0" />
 </svg>

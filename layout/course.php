@@ -79,11 +79,13 @@ $templatecontext = [
 $PAGE->requires->jquery();
 $PAGE->requires->js('/theme/fordson/javascript/scrolltotop.js');
 $PAGE->requires->js('/theme/fordson/javascript/scrollspy.js');
-$PAGE->requires->js('/theme/fordson/javascript/tooltipfix.js');
 $PAGE->requires->js('/theme/fordson/javascript/blockslider.js');
-if ($PAGE->theme->settings->preset != 'Spectrum-Achromatic') {
+
+if (isset($PAGE->theme->settings->preset) && $PAGE->theme->settings->preset != 'Spectrum-Achromatic') {
     $PAGE->requires->js('/theme/fordson/javascript/courseblock.js');
 }
 
-$templatecontext['flatnavigation'] = $PAGE->flatnav;
+$nav = $PAGE->flatnav;
+$templatecontext['flatnavigation'] = $nav;
+$templatecontext['firstcollectionlabel'] = $nav->get_collectionlabel();
 echo $OUTPUT->render_from_template('theme_fordson/columns2', $templatecontext);
